@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact form</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body style="background-color: rgb(191, 238, 222);">
+        <div class="form">
+            <h1 id="title">Contact Us</h1>
+            <div class="flex">
+                <div class="name1">
+                <p>First Name *</p>
+                <div class="field1"><input type="text" class="text" placeholder=""></div>
+                </div>
+                <div class="name1">
+                <p>Last Name *</p>
+                <div class="field1"><input type="text" class="text"></div>
+                </div>
+            </div>
+            <div class="position">
+                <p class="name1">Email Address *</p>
+                <div class="field2"><input type="email" required class="text"></div>
+            </div>
+            <div class="name2"><p>Query type *</p></div>
+            <div class="flex">
+                <div class="field1">
+                    <div class="flex1">
+                        <input type="radio" name="query" value="General Enquiery" class="circle">
+                        <div class="name1">General Enquiery</div>
+                    </div>
+                </div>
+                <div class="field1">
+                    <div class="flex1">
+                        <input type="radio" name="query" value="Support" class="circle">
+                        <div class="name1">Support Request</div>
+                    </div>    
+                </div>
+            </div>
+            <div class="position">
+                <p class="name1">Message *</p>
+                <div class="field3"><input type="text" class="text"></div>
+            </div>
+            <div class="flex1">
+                <input type="checkbox" name="cookies" value="accepted: i consent to being cntacted by the team" class="square">
+                <p class="name3">I consent to being cntacted by the team *<p>
+            </div>
+            <div>
+                <button class="Submit">Submit</button>
+            </div>
+        </div>
+    </body>
+
+</html>
